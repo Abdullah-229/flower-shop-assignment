@@ -192,6 +192,35 @@ nav{
     height: 64px;
     margin-left:15px;
 }
+
+.order{
+    margin:50px 200px;
+    background: rgb(245, 233, 235);
+    border-radius: 10px;
+    padding:50px 150px;
+    text-align: center;
+}
+.order input[type=email]{
+    border-radius: 8px;
+    background: #FFF;
+    width: 700px;
+    height: 64px;
+}
+.order input[type=date]{
+    border-radius: 5px;
+    height: 30px;
+}
+.order textarea{
+    border-radius: 8px;
+    background: #FFF;
+    width: 700px;
+    height: 100px;
+}
+.order-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
 /* footer section style */
 footer{
     background: #111010;
