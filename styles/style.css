@@ -1,0 +1,222 @@
+/* general style */
+.body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+/* header section style */
+.header{
+    background: rgba(229, 84, 115, 0.10);
+    margin:0;
+}
+nav{
+    display: flex;
+    gap:90px;
+    padding:50px 250px 0px 100px;
+    justify-content: space-between;
+}
+.head-container{
+    margin-top: 150px;
+}
+.head-img{
+    width: 400px;
+    margin-top: 50px;
+}
+.head-title{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+.head-txt{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.btn-primary{
+    border-radius: 8px;
+    background: #E55473;
+    padding:10px 40px;
+    border: 0;
+}
+/* main section style */
+.feature-content{
+    text-align: center;
+    margin-top:200px;
+}
+.feature-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.feature-txt{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin:0px 500px;
+}
+.feature-img{
+    display: flex;
+    gap:25px;
+    justify-content: space-around;
+    margin:50px 250px 0px 250px;
+}
+.pink-flower-img{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 100px 75px 0px 75px;
+}
+.red-flower-img{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 110px 50px 50px 50px;
+}
+.yellow-flower-img{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 60px 75px 0px 75px;
+}
+.img-title{
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+.service{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin:150px 250px 0px 250px;
+    display: flex;
+    gap:100px;
+    justify-content: space-around;
+    padding:80px 150px;
+    text-align: center;
+}
+.service txt{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+}
+.servie-img{
+    align-items: center;
+
+}
+
+.deal{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display:flex;
+    gap:200px;
+    margin-top:150px;
+    justify-content: space-around;
+}
+.deal-container{
+    padding:250px 0px 150px 350px;
+    text-align: center;
+}
+.deal-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.deal-txt{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.deal-img{
+    padding:100px 100px 100px 0px;
+
+}
+
+.insta{
+    margin-top: 100px;
+    text-align: center;
+}
+.insta-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.insta-txt{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin:0px 450px;
+}
+
+.flower-type{
+    margin:50px 150px 130px 150px;
+    display: flex;
+    gap:25px;
+    justify-content: space-around;
+}
+.flower-rectangle{
+    width: 300px;
+}
+
+.deals{
+    background-image: url('../images/Flower Asset/Rectangle\ 9.png');
+    margin: 0px 200px 120px 200px;
+    padding: 120px 200px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.deals-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.deals-txt{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.deals-email{
+    border-radius: 8px;
+    background: #FFF;
+    width: 500px;
+    height: 64px;
+}
+.deals-btn{
+    width: 140px;
+    height: 64px;
+    margin-left:15px;
+}
+/* footer section style */
+footer{
+    background: #111010;
+    margin:0;
+    padding:120px 200px;
+    text-align: center;
+
+}
+.foot-title{
+    color:white;
+    font-size: 48px;
+    font-weight: 800;
+}
+.foot-txt{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin:0px 300px;
+}
+.txt-style{
+    color: #E55473;
+}
+.copy-right{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
